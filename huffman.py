@@ -1,5 +1,5 @@
 test_file = "test.txt"
-formatExtension = "s45"
+formatExtension = "hm"
 readSize = 1
 
 def compress(fileName):
@@ -173,4 +173,4 @@ def decompress(fileName):
         #             input()
             
 compress(test_file)
-decompress("test.s45")
+decompress("test.hm")
